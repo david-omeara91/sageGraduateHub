@@ -30,7 +30,7 @@ class GraduateViewSet(viewsets.ModelViewSet):
 class EventViewSet(viewsets.ModelViewSet):
     queryset = Event.objects.all()
     serializer_class = EventSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    # permission_classes = [permissions.IsAuthenticated]
 
 class ResourceViewSet(viewsets.ModelViewSet):
     queryset = Resource.objects.all()

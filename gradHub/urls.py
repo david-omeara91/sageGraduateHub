@@ -13,9 +13,7 @@ router.register(r'mentors', views.MentorViewSet)
 router.register(r'questions', views.QuestionViewSet)
 router.register(r'answers', views.AnswerViewSet)
 router.register(r'advice', views.AdviceViewSet)
-router.register(r'graduates', views.GraduateViewSet)
-router.register(r'graduates', views.GraduateViewSet)
-router.register(r'graduates', views.GraduateViewSet)
+
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
